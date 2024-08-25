@@ -1,0 +1,52 @@
+body{
+    color:white;
+    background:black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+}
+header{
+    border-bottom: solid 2px cyan;
+    padding: 15px;
+    font-size: 50px;
+    color: cyan;
+}
+.link{
+    background: #482b3e;
+    padding-bottom:80px;
+    padding-top:80px;;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-left: 5%;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 40px;
+}
+img{
+    height: 200px;
+}
+
+.categoria-videos{
+display: flex;
+overflow: auto;
+gap:20px
+}
+.jogos{
+    padding-left: 15px;
+    padding-right: 15px
+}
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid red;
+}
+.JOGOS h2{
+    color:cyan ;
+
+}
